@@ -92,7 +92,11 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="flappy_plane.icon.png" />
 <link rel="apple-touch-icon" href="flappy_plane.apple-touch-icon.png"/>
+<link rel="manifest" href="flappy_plane.manifest.json">
+<style>
+body {display:flex;align-items:center;justify-content:center};
 
+</style>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +115,7 @@ body {
 
 		<script src="flappy_plane.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"ensureCrossOriginIsolationHeaders":true,"executable":"flappy_plane","experimentalVK":false,"fileSizes":{"flappy_plane.pck":109984,"flappy_plane.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"flappy_plane","experimentalVK":false,"fileSizes":{"flappy_plane.pck":134464,"flappy_plane.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"flappy_plane.service.worker.js"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
