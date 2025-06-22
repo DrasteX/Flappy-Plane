@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1750574379|5578959633';
+const CACHE_VERSION = '1750576913|2358494837';
 /** @type {string} */
 const CACHE_PREFIX = 'Flappy_Plane-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
